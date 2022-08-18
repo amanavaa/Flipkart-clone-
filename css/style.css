@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Montserrat:wght@100&display=swap');
+
+:root {
+    --main2-bg-color: #134ba5;
+    --main-bg-color: #2874f0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+
+    background-color: var(--main-bg-color);
+}
+nav{
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
+header nav .nav-handle {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 82px;
+    padding: 0 18px;
+}
+
+header nav ul {
+
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 0 23px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+
+}
+
+a:hover {
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 23px;
+    width: 336px;
+    margin: 0 23px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -12px;
+
+}
+
+.btn button {
+    background-color: var(--main-bg-color);
+    border-radius: 4px;
+    color: white;
+    border: 1px solid white;
+    padding: 0 2px;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+main .container {
+    min-height: calc(100vh - 60px - 70px);
+    
+}
+
+main .searchlogo {
+    width: 15px;
+    height: 15px;
+}
+.button-submit button{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 0.1px solid white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+.button-submit button:hover{
+    color: white;
+    background-color: var(--main2-bg-color);
+    cursor: pointer;
+
+}
+
+.home1 {
+
+    margin: 0.1rem auto;
+
+    height: 70vh;
+    width: 100%;
+    /* transform: translate(85vh);
+    animation: screen2 6s ease-in-out 3s alternate-reverse infinite; */
+}
+
+
+/* @keyframes screen1 {
+    0%{
+        transform: translate(110vh);
+    }
+    100%{
+        transform: translate(-104vh);
+       
+    }
+    
+}
+@keyframes screen2 {
+    0%{
+        transform: translate(85vh);
+        animation-delay: 2s;
+    }
+    100%{
+        transform: translate(-150vh);
+        animation-delay: 2s;
+    }
+    
+} */
+.word {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.word h2 {
+   font-size: 2.4rem;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+   
+}
+
+.one-line {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.one-line2 {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.box-items {
+    width: 16vw;
+    height: fit-content;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.box-items img {
+    height: 20vh;
+    padding: 12px;
+
+}
+
+.box-items img:hover {
+    image-rendering: optimizeSpeed;
+}
+
+.contacts {
+    background-color: rgb(118, 118, 149);
+    height: 30vh;
+    display: flex;
+}
+
+.Help {
+    width: 35vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 159px;
+    padding-top: 0;
+
+}
+
+.Help ul {
+    margin-top: 0;
+}
+
+.Help ul p {
+    padding: 2px;
+
+}
+
+.Help ul li {
+    list-style: none;
+    padding: 2px;
+
+}
+
+.Help ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.Help ul li a img {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+p:hover {
+    font-weight: 900;
+
+}

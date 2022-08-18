@@ -1,0 +1,19 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center1{
+    text-align: center;
+    margin:10px auto;
+    font-weight: 600;
+}
+.text-center2{
+    text-align: center;
+    margin:10px auto;
+    color: green;
+}
+.text-center3{
+    text-align: center;
+    margin:10px auto;
+}
